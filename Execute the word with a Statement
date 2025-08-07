@@ -15,6 +15,6 @@ import java.util.regex.*;
         
         System.out.println("May I know how to learn " + input + "!!!...");
 
-        scanner.close();
+      
     }
 }
