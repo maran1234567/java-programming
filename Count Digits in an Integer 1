@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String[] args) {  
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine().trim();
+
+        if (input.matches("\\d+")) {
+            long num = Long.parseLong(input);
+            if (num >= 1 && num <= 10000000) {
+                System.out.println("The count of the given integer is: " + input.length());
+            } else {
+                System.out.println("Enter a Valid Input");
+            }
+        } else {
+            System.out.println("Enter a Valid Input");
+        }
+
+    }
+}
